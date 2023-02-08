@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-129.5" y="243.0">Model.AccountType</node>
+    <node x="-129.5" y="-72.0">Model.IAccount</node>
+    <node x="70.5" y="88.0">Model.BusinessAcount</node>
+    <node x="-129.5" y="88.0">Model.EconomyAcount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.AccountType" target="Model.EconomyAcount" relationship="CREATE">
+      <point x="-40.0" y="-72.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.AccountType" target="Model.BusinessAcount" relationship="CREATE">
+      <point x="122.0" y="-72.0" />
+      <point x="-38.0" y="27.0" />
+    </edge>
+    <edge source="Model.BusinessAcount" target="Model.IAccount" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="160.0" y="35.5" />
+      <point x="-40.0" y="35.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Model.EconomyAcount" target="Model.IAccount" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9958246346555324" showDependencies="true" x="69.99999999999994" y="107.52096436058699" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
